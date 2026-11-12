@@ -1,7 +1,6 @@
-drop database if exists gestao_residuos;
-create database gestao_residuos;
-use gestao_residuos;
-
+drop database if exists gestao_energia;
+create database gestao_energia;
+use gestao_energia;
 create table usuario (
     id int not null auto_increment primary key,
     nome varchar(100) not null,
